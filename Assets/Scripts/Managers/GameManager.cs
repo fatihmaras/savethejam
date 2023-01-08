@@ -4,6 +4,7 @@ using UnityEngine.EventSystems;
 
 public class GameManager : Singleton<GameManager>
 {
+    //Test (Fatih)
     public GameState currentGameState;
     public System.Action<GameState> OnGameStateChanged;
     public int trophyCount;
